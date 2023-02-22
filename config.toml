@@ -1,0 +1,22 @@
+baseURL = 'http://foodrescue.pantrypoints.com/'
+languageCode = 'en-us'
+title = 'Food Rescue with Pantrypoints'
+
+theme = "reveal-hugo"
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[outputFormats.Reveal]
+baseName = "index"
+mediaType = "text/html"
+isHTML = true
+
+[reveal_hugo.templates.hotpink]
+class = "services"
+background = "#FF4081"
+
+[reveal_hugo]
+theme = "moon"
+highlight_theme = "solarized-dark"
+slide_number = true
